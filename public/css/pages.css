@@ -1,0 +1,503 @@
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a,h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.form-control:focus{
+    border-color: #ff0000a3;
+}
+header form button i {
+    color: #f9f9f9a1 !important;
+}
+
+header form input{
+    display: none !important;
+}
+
+.form-header:hover input{
+    display: block !important;
+}
+
+.form-header:hover button{
+    background-color: red;
+    
+}
+.form-header:hover i{
+    color: white !important;
+}
+
+.searchHedader form input{
+    display: none;
+}
+
+.searchHedader:hover form input{
+    display: block;
+}
+
+.searchHedader:hover form button{
+    background-color: red;
+    color: white !important;
+}
+
+button:focus,
+button:hover,
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+nav .navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+nav.navbar-light .navbar-nav .nav-link:hover,
+nav.navbar-light .navbar-nav .nav-link:active,
+nav.navbar-light .navbar-nav .nav-link:focus
+{
+    font-weight: 500;
+}
+
+nav.navbar-light .navbar-nav .nav-link.active{
+    font-weight: 700;
+}
+
+.bg-red{
+    background-color: #E12328;
+}
+/*
+    Tipo de letra
+*/
+
+
+/* width */
+
+/**
+Colores
+*/
+.color-white{
+    color: white;
+}
+.color-link-gris{
+    color: #222222e6 !important;
+}
+.color-primario{
+    color: #e12328 !important;
+}
+.color-segundario{
+    color: #e12328;
+}
+/**
+*    peso de letra
+*/
+.font-weight-600{
+    font-weight: 600;
+}
+/**
+Tamaños de letra
+*/
+.font-size-78{
+    font-size: 78px;
+}
+.font-size-60{
+    font-size: 60px;
+}
+.font-size-40{
+    font-size: 40px;
+}
+.font-size-36{
+    font-size: 36px;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.font-size-28{
+    font-size: 28px;
+}
+.font-size-26{
+    font-size: 24px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+.font-size-23{
+    font-size: 23px;
+}
+.font-size-21{
+    font-size: 21px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-19{
+    font-size: 19px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-17{
+    font-size: 17px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-15{
+    font-size: 15px !important;
+}
+.font-size-14{
+    font-size: 14px;
+}
+
+.font-size-13{
+    font-size: 13px !important;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.font-size-11{
+    font-size: 11px;
+}
+
+.header *{
+    color: #ffffffeb;
+    font-size: 12px;
+}
+.header a{
+    text-decoration: none;
+}
+.header a:hover,
+.header a:focus
+.header a:active{
+    color: white;
+}
+
+.text-white {
+    color: white!important;
+}
+.text-light {
+    color: #f9f9f9a1 !important;
+  }
+input::placeholder,
+input,
+textarea{
+    font-size: 12px;
+    color: #1D1D1A;
+}
+
+.newsletter .form-control:focus,
+.newsletter .form-control:active
+.newsletter .form-control:hover{
+    box-shadow: none;
+    border-color: none;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+iframe{
+    max-width: 100%;
+}
+.ul-style ul {
+    list-style: none; /* Remove default bullets */
+}
+.ul-style ul li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -1em;
+    font-size: 25px;
+    width: 1rem;
+    position: relative;
+    top: 4px;
+    height: 0;
+}
+.card{
+    background-color: transparent;
+    border: none;
+}
+.producto .card img, .producto.card img {
+    width: 100%;
+    min-height: 227px;
+    max-height: 227px;
+    object-fit: contain;
+}
+
+.card img{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.producto .mas{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #ff000033;
+    display: none;
+    font: normal normal 300 51px/66px Montserrat;
+}
+.producto .position-relative:hover .mas.position-absolute{
+    display: flex;
+}
+.producto .mas img{
+    border:none;
+}
+
+.contenedor-breadcrumb{
+    background-color: #f2f2f2a6;
+}
+aside li.active{
+    border-top: 5px solid #E12328;
+}
+aside li.active .active, 
+aside li.active > a, 
+aside li > a:hover{
+    font-weight: 600;
+}
+
+aside > ul > li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    
+}
+.rd-none{
+    display: none;
+}
+.color-producto{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+td{
+    vertical-align: middle;
+}
+
+.contenedor-color{
+    width: 100%;
+}
+.contenido-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;   
+}
+
+#sliderClient .carousel-indicators{
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#sliderClient .carousel-indicators [data-bs-target]{
+    background-color: gray;
+}
+.navbar-light .navbar-toggler-icon{
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+.hero{
+    min-height: 488px;
+    max-height: 488px;
+}
+.carousel-caption{
+    max-width: 50%;
+}
+.pre-footer a:hover{
+    color: white;
+}
+.btn-check:checked + .btn-outline-danger, .btn-check:active + .btn-outline-danger, .btn-outline-danger:active, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show{
+    background-color: #E12328;
+    border-color: #E12328;
+}
+
+.btn-outline-danger:hover{
+    background-color: #E12328;
+    border-color: #E12328; 
+}
+
+@media (min-width: 50px){
+    .categoria-producto{
+        bottom: 0; 
+    }
+    .contenedor-color{
+        width: 100%;
+        height: 94px;
+    }
+
+    #hilos-libertad h5{
+        font-size: 1.25rem;
+    }
+    #sliderHeroEmpresa .carousel-indicators {
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .rposition{
+        position: static;
+    }
+}
+@media (min-width: 992px){
+    .rposition{
+        position: absolute;
+    }
+    .mt-75{
+        margin-top: 75px !important;
+    }
+
+}
+
+@media (min-width: 720px){    
+    .categoria-producto{
+        bottom: 120px;
+    }
+    .image-card{
+        max-height: 250px;
+        min-height: 250px;
+        object-fit: cover;
+        width: 100%;
+    }
+    #carouselProduct .carousel-inner,
+    #carouselProduct .carousel-item,
+    #carouselProduct .carousel-item img{
+        max-height: 240px;
+        min-height: 240px;
+    }
+    .carousel-inner{
+        max-height: 86vh;
+    }
+    #sliderHeroEmpresa .carousel-inner, 
+    #sliderHeroEmpresa .carousel-inner img,
+    #sliderHero .carousel-inner,
+    #sliderHero .carousel-inner img{
+        max-height: 428px;
+        min-height: 428px;
+    }
+    .img-client-carrusel{
+        min-width: 172px;
+        max-width: 172px;
+        min-height: 92px;
+        max-height: 92px;
+        object-fit: contain;
+    }
+
+    .contenedor-color{
+        width: 30%;
+    }
+
+    #hilos-libertad h5{
+        font-size: 30px;
+    }
+
+    #sliderHeroEmpresa .carousel-indicators{
+        bottom: 10px;
+    }
+    .w-md-48{
+        width: 48% !important;
+    }
+
+}
+
+@media (min-width: 920px){
+    
+    nav.navbar-light .navbar-nav .nav-link{
+        font-size: 90%;
+    }
+    .categoria-producto .container{
+        max-width: 980px;
+        
+    }
+
+    .contenedor-color{
+        width: 18%;
+    }
+
+    nav.navbar-light .navbar-nav .nav-link.active::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -46px;
+        height: 5px;
+        background-color: red;
+    }
+}
+@media (max-width: 768px){    
+    #sliderHero .carousel-caption{
+        top: 0;
+    }
+    #sliderHero .carousel-caption{
+        min-width: 95%;
+    }
+    .font-size-36{
+        font-size: 19px !important;
+    }
+    #heroProducto h2{
+        font-size: 19px;
+    }
+    .w-sm-100{
+        width: 100% !important;
+    }
+    .logo-header{
+        max-width: 150px;
+    }
+    .ancho-boton{
+        width: 100%;
+    }
+    #heroProducto p{
+        font-size: 15px;
+    }
+
+    #sliderHeroEmpresa .carousel-inner, 
+    #sliderHeroEmpresa .carousel-inner img,
+    #sliderHero .carousel-inner,
+    #sliderHero .carousel-inner img{
+        max-height: 210px;
+        min-height: 210px;
+    }
+}
+.iframe iframe {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+}
+@media (max-width: 500px){
+    .logo-header{
+        max-width: 100px;
+    }
+    .font-size-40{
+        font-size: 25px;
+    }
+    .font-size-30{
+        font-size: 20px;
+    }
+    .font-size-23{
+        font-size: 19px;
+    }
+    .font-size-20{
+        font-size: 17px;
+    }
+    .font-size-16{
+        font-size: 15px;
+    }
+}

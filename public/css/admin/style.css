@@ -1,0 +1,18 @@
+.custom-file-label.custom-file-label-imagen::after{
+    content:"Subir imagen"
+}
+table{
+    min-width: 100%;
+}
+
+.select2-container{
+    width: 100% !important;
+}
+
+.cke_top {
+    display: none !important;
+}
+
+.product .cke_top{
+    display: block !important;
+}
